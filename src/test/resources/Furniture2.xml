@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="ESFurniture">
+	<test thread-count="1" verbose="2" name="Default test">
+		<classes>
+			<class name="com.web365.filter.test.ESFurnitureAzTest" />
+			<class name="com.web365.filter.test.ESFurnitureFirstAddedTest" />
+			<class name="com.web365.filter.test.ESFurnitureLastAddedTest" />
+			<class name="com.web365.romanianfurniture.test.ESFurnitureBedroomFurnitureTest" />
+			<class name="com.web365.romanianfurniture.test.ESFurnitueLobbyFurnitureTest" />
+			<class name="com.web365.romanianfurniture.test.ESFurnitureKitchenFurnitureTest" />
+			<class name="com.web365.romanianfurniture.test.ESFurnitureSizeSTest" />
+			<class name="com.web365.romanianfurniture.test.ESFurnitureSizeMTest" />
+			<class name="com.web365.romanianfurniture.test.ESFurnitureSizeXXLTest" />
+			<class name="com.web365.removefromcart.test.ESFurnitureRemoveFromCartTest" />
+			<class name="com.web365.search.test.ESFurnitureCapitalLettersTest" />
+			<class name="com.web365.search.test.ESFurnitureLowercaseLettersTest" />
+			<class name="com.web365.search.test.ESFurnitureNumbersTest" />
+			<class name="com.web365.search.test.ESFurnitureSpecialCharTest" />
+			<class name="com.web365.contacts.test.ESFurniturePhoneNumberTest" />
+			<class name="com.web365.contacts.test.ESFurnitureWorkingHoursTest" />
+			<class name="com.web365.contacts.test.ESFurnitureAddressTest" />
+			<class name="com.web365.language.test.ESFurniturePucTest" />
+			<class name="com.web365.language.test.ESFurnitureEngTest" />
+			<class name="com.web365.language.test.ESFurnitureHayTest" />
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->
