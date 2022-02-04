@@ -11,31 +11,30 @@ import org.openqa.selenium.support.FindBy;
 import com.web365.esfurniture.page.base.ESFurnitureBasePage;
 
 public class ESFurnitureAddress extends ESFurnitureBasePage {
-	
+
 	public ESFurnitureAddress(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
-	
+
 	}
 
-@FindBy(xpath = CONTACTS_XPATH)
-public WebElement contacts;
+	@FindBy(xpath = CONTACTS_XPATH)
+	public WebElement contacts;
 
-@FindBy(xpath = INFORMATION_XPATH)
-public WebElement information;
+	@FindBy(xpath = INFORMATION_XPATH)
+	public WebElement information;
 
-@FindBy(xpath = VERIFY18_XPATH)
-public WebElement verify18;
+	@FindBy(xpath = VERIFY18_XPATH)
+	public WebElement verify18;
 
-public ESFurnitureAddress contacts() {
-	contacts.click();
-	return new ESFurnitureAddress(this.driver);
-}
+	public ESFurnitureAddress contacts() {
+		contacts.click();
+		return new ESFurnitureAddress(this.driver);
+	}
 
-public ESFurnitureAddress information() {
-	information.click();
-	return new ESFurnitureAddress(this.driver);
-}
-
+	public ESFurnitureAddress information() {
+		information.click();
+		return new ESFurnitureAddress(this.driver);
+	}
 
 }

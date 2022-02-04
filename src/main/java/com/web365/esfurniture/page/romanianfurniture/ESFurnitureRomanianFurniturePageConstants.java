@@ -17,5 +17,13 @@ public class ESFurnitureRomanianFurniturePageConstants {
 	public static final String VERIFY9_XPATH = "//img[@src = '/prodimg/5068_46548_1549374349_s.jpg']";
 	public static final String SEARCH_ICON_XPATH = "//span[@class = 'lnr lnr-magnifier']";
 	public static final String INPUT_XPATH = "//input[@name = 's']";
+	public static final String OFFICE_FURNITURE_XPATH = "//a[text() = 'Office furniture']";
+	public static final String VERIFY23_XPATH = "//img[@src = '/prodimg/5068_46534_1549374037_s.jpg']";
+	public static final String L_XPATH = "//a[text() = 'L']";
+	public static final String VERIFY24_XPATH = "//img[@src = '/prodimg/5068_46518_1549373237_s.jpg']";
+	public static final String XL_XPATH = "//a[text() = 'XL']";
+	public static final String VERIFY25_XPATH = "//img[@src = '/prodimg/5068_46536_1549374044_s.jpg']";
+
+
 
 }

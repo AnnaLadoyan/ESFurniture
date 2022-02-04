@@ -11,33 +11,30 @@ import org.openqa.selenium.support.FindBy;
 import com.web365.esfurniture.page.base.ESFurnitureBasePage;
 
 public class ESFurnitureSizeM extends ESFurnitureBasePage {
-	
 
-
-public ESFurnitureSizeM(WebDriver driver) {
+	public ESFurnitureSizeM(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
 
 	}
 
-@FindBy(xpath = ROMAINIAN_FURNITURE_XPATH)
-public WebElement romanianFurniture;
+	@FindBy(xpath = ROMAINIAN_FURNITURE_XPATH)
+	public WebElement romanianFurniture;
 
-@FindBy(xpath = M_XPATH)
-public WebElement sizeMFurniture;
+	@FindBy(xpath = M_XPATH)
+	public WebElement sizeMFurniture;
 
-@FindBy(xpath = VERIFY11_XPATH)
-public WebElement verify11;
+	@FindBy(xpath = VERIFY11_XPATH)
+	public WebElement verify11;
 
-public ESFurnitureSizeM gotoRomanianFurniture() {
-	romanianFurniture.click();
-	return new ESFurnitureSizeM(this.driver);
-}
+	public ESFurnitureSizeM gotoRomanianFurniture() {
+		romanianFurniture.click();
+		return new ESFurnitureSizeM(this.driver);
+	}
 
-public ESFurnitureSizeM sizeMFurniture() {
-	sizeMFurniture.click();
-	return new ESFurnitureSizeM(this.driver);
-}
-
+	public ESFurnitureSizeM sizeMFurniture() {
+		sizeMFurniture.click();
+		return new ESFurnitureSizeM(this.driver);
+	}
 
 }

@@ -10,4 +10,6 @@ public class ESFurnitureFilterPageConstants {
 	public static final String VERIFY12_XPATH = "//img[@src = '/prodimg/5068_46204_1549273026_s.jpg']";
 	public static final String LAST_ADDED_XPATH = "//a[@onclick = 'Sort(4);']";
 	public static final String VERIFY2_XPATH = "//span[text() = 'Products']";
+	public static final String Z_A_XPATH = "//a[text() = 'Z - A']";
+	public static final String VERIFY22_XPATH = "//img[@src = '/prodimg/5068_46447_1549294816_s.jpg']";
 }
